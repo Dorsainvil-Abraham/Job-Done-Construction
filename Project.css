@@ -1,0 +1,77 @@
+main section .bg {
+    margin: 20px 0;
+    text-align: center;
+}
+main section .bg img {
+    width: 97%;
+    height: 400px;
+    
+}
+
+
+main .project {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+}
+main .project .info {
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 20px;
+    word-spacing: 5px;
+    line-height: 2em;
+    margin: 20px 0;
+}
+
+main .project .information {
+    width: 60% ;
+    padding: 10px;
+    line-height: 1.5em;
+}
+main .project .information h2 {
+    text-align: start;
+    color: black;
+}
+@media screen and (max-width:700px){
+    main .project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    }
+    main .project .info {
+        width: 500px;
+    
+    }
+
+    main .project .information {
+        width: 500px ;
+        line-height: 1.5em;
+    }
+}
+
+main section .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: 30px 25px;
+    padding: 20px;
+}
+main section img {
+    width: 270px;
+    height: 270px;
+}
+main section .images img:hover {
+    opacity: 0.7;
+    transform: scaleX(1.1);
+    transition: 2s ease;
+}
+@media screen and (max-width:700px){
+    main section img {
+        width: 500px;
+        height: 500px;
+    }
+}

@@ -1,0 +1,232 @@
+body {
+    box-sizing: border-box;
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    
+}
+.container-img {
+    background-image: url("Images/ConstructBg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 100px;
+    height: 600px;
+    
+}
+
+.social-icons {
+    background-color: rgb(189, 141, 234);
+    padding: 10px;
+    font-size: large;
+}
+.social-icons i {
+    color: white;
+    margin-left: 15px;
+}
+
+.social-icons i:hover {
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.company-logo {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+.company-logo .info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-size: large;
+}
+.company-logo .info i:hover {
+    color: rgb(189, 141, 234);
+}
+.company-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.company-logo .name{
+    display: flex;
+    padding-left: 5px;
+}
+.company-logo .name h2 {
+    padding-top: 10px;
+}
+
+
+.navigation nav a{
+    text-decoration: none;
+}
+.navigation nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+    font-size: large;
+}
+.navigation {
+    padding: 1px;
+    background-color: antiquewhite;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    
+    
+}
+
+@media screen and (max-width:700px) {
+    .navigation nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* Main CSS*/
+
+main section h2 {
+    text-align: center;
+    color: rgb(189, 141, 234);
+}
+main section .service-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main section .service-container div {
+    width: 350px;
+    padding: 10px;
+}
+
+main section .service-container div img {
+    width: 350px;
+}
+
+main section .about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(232, 228, 228);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+main section .about-container div {
+    padding: 50px;
+    margin-top: 70px;
+    width: 400px;
+    
+}
+
+main section .about-container div  img {
+    width: 400px;
+    height: 300px;
+}
+
+main section .about-container div button {
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(189, 141, 234);
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+
+
+
+
+
+footer {
+    background-color: antiquewhite;
+    padding: 25px 10px;
+    
+}
+
+footer .container-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.container-footer .construction div{
+    padding: 5px;
+    padding-left: 5px;
+    box-shadow: 2px 4px 6px rgb(189, 141, 234);
+    
+}
+.container-footer .construction img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+footer  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 20px;
+}
+
+footer  ul li a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+
+}
+
+footer  ul li a:hover {
+    color: rgb(189, 141, 234);
+    text-decoration: underline;
+}
+
+footer .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: large;
+}
+
+
+
+
+footer .copyright {
+    text-align: center;
+}
+
+@media screen and (max-width:900px) {
+    
+     footer .container-footer {
+        width: 100%;
+        
+        
+     } 
+     .container-footer  div {
+        width: 45%;
+        padding: 10px;
+     }
+     .container-footer .construction div {
+        box-shadow: none;
+     }
+
+    
+}
