@@ -69,9 +69,20 @@ main section .images img:hover {
     transform: scaleX(1.1);
     transition: 2s ease;
 }
-@media screen and (max-width:700px){
+
+
+@media screen and (max-width:900px) {
     main section img {
         width: 500px;
+        height: 500px;
+    }
+}
+
+/* For mobile devices*/
+
+@media screen and (max-width: 599px) {
+    main section img {
+        width: 380px;
         height: 500px;
     }
 }

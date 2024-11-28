@@ -86,7 +86,7 @@ main .quality i {
     padding-top: 20px;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     
     .container-img .about {
         display: none;
@@ -166,4 +166,34 @@ main .team .icon {
 main .team .icon i {
     font-size: large;
     cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    main .experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .experience img {
+        width: 750px;
+        height: 500px;
+    }
+}
+
+/* For mobile devices*/
+
+@media screen and (max-width: 599px) {
+    main .experience {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    main .experience img {
+        width: 380px;
+        height: 200px;
+
+    }
 }
