@@ -28,10 +28,6 @@
         "dest": "/Home.html"
       },
       {
-        "src": "/About",
-        "dest": "/About.html"
-      },
-      {
         "src": "/Contact",
         "dest": "/Contact.html"
       },
@@ -42,14 +38,6 @@
       {
         "src": "/Service",
         "dest": "/Service.html"
-      },
-      {
-        "src": "/Images/(.*)",
-        "dest": "/images/$1" 
-      },
-      { 
-        "src": "/Styles/(.*)", 
-        "dest": "/styles/$1" 
       },
       {
         "src": "/(.*)",
