@@ -4,12 +4,48 @@
       {
         "src": "Home.html",
         "use": "@vercel/static"
+      },
+      {
+        "src": "About.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "Contact.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "Project.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "Service.html",
+        "use": "@vercel/static"
       }
     ],
     "routes": [
       {
-        "src": "/(.*)",
+        "src": "/",
         "dest": "/Home.html"
+      },
+      {
+        "src": "/About",
+        "dest": "/About.html"
+      },
+      {
+        "src": "/Contact",
+        "dest": "/Contact.html"
+      },
+      {
+        "src": "/Project",
+        "dest": "/Project.html"
+      },
+      {
+        "src": "/Service",
+        "dest": "/Service.html"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/$1"
       }
     ]
   }
