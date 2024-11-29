@@ -28,6 +28,10 @@
         "dest": "/Home.html"
       },
       {
+        "src": "/About",
+        "dest": "/About.html"
+      },
+      {
         "src": "/Contact",
         "dest": "/Contact.html"
       },
