@@ -44,9 +44,17 @@
         "dest": "/Service.html"
       },
       {
+        "src": "/Images/(.*)",
+        "dest": "/images/$1" 
+      },
+      { 
+        "src": "/Styles/(.*)", 
+        "dest": "/styles/$1" 
+      },
+      {
         "src": "/(.*)",
         "dest": "/$1"
       }
     ]
   }
-  
+
